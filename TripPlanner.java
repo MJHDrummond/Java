@@ -26,7 +26,7 @@ public class TripPlanner {
 		String location = input.nextLine();
 		System.out.println("Great! " + location + " sounds like a great trip.");
 		breaker();
-    input.close();
+        input.close();
 	}
 	
 	public static void budget() {
@@ -44,7 +44,7 @@ public class TripPlanner {
 		System.out.println("If you are going to spend " + money + " EUR, that means per day you can spend up to " + ((int) (money/duration)*100)/100.0 + " EUR.");
 		System.out.println("Your total budget in " + currency + " is " + money*exchange + " " + currency + ", which per day is " + ((int) (money*exchange/duration)*100)/100.0 + " " + currency);
 		breaker();
-    input.close();
+        input.close();
 		}
 	
 	public static void timezone() {
@@ -52,9 +52,9 @@ public class TripPlanner {
 		System.out.print("What is the time difference, in hours, between your home and your destination? ");
 		int tdiff = input.nextInt();
 		System.out.println("That means that when it is midnight at home it will be " + (24+tdiff) % 24 + ":00 in your travel destination");
-    System.out.println("and when it is noon at home it will be " + (12+tdiff) + ":00");
-    breaker();
-    input.close();
+        System.out.println("and when it is noon at home it will be " + (12+tdiff) + ":00");
+        breaker();
+        input.close();
 	}
 	
 	public static void landarea() {
@@ -63,7 +63,7 @@ public class TripPlanner {
 		double areakm = input.nextDouble();
 		System.out.println("In miles2 that is " + ((int) (areakm*0.386102)*100)/100.0);
 		breaker();
-    input.close();
+        input.close();
 	}
 	
 	public static void distance() {
@@ -102,7 +102,7 @@ public class TripPlanner {
 		double d = 2*r*arcSin; 
 		System.out.println("The distance between home and destination is " + ((int) d*100)/100.0 + " km");
 		breaker();
-    input.close();
+        input.close();
 	}
 		
 	public static void breaker() {
