@@ -11,7 +11,7 @@ public class LongestName {
 
 	public static void main(String[] args) {
 	    
-      longestName(new Scanner("roy\nDANE\nErik\nsTeFaNiE\nLaurA\n"), 5);
+        longestName(new Scanner("roy\nDANE\nErik\nsTeFaNiE\nLaurA\n"), 5);
 	}
 
 	public static void longestName(Scanner console, int n) {
