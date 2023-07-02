@@ -7,6 +7,6 @@ This repository will be used for storing my Java projects. I have chosen to do a
 
 If all goes well I may try to create a GUI and combine with my Python scripts/database from Supermarket-Scraper in order to create an interactive meal planner.
 
-As always, any suggestions for improvements to my scripts are greatly welcomed.
+As always, any suggestions for improvements to my scripts are greatly welcome.
 
 Cheers.
